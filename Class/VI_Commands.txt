@@ -1,0 +1,4 @@
+i - insert (start writing)
+ESC - stop writing
+:w - save the file (means written)
+:q - quit the file and go back to terminal
