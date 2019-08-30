@@ -1,0 +1,10 @@
+Notes on Terminal Commands
+
+vi [name.txt] to write in new (or existing file),
+then press i to start inserting text
+Hit ESC to stop editing.
+
+To save, type :w    - means "written"
+
+To get out, type :q  (for quit)
+
