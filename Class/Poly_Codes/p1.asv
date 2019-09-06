@@ -1,0 +1,3 @@
+function val = p1()
+
+val = a0 + a1*x + a2*x^2
