@@ -17,10 +17,12 @@ n_b = -1;
 a_n = 0;
 b_n = 0;
 
+%keep calculating a_n until error < 10^(-6)
 while a_err>tol
     
     a_n = 0;
     n_a = n_a + 1;
+    %calculate a_n for current value of n
     for k=0:n_a
         a_n = a_n + (6/sqrt(3))*((-1)^k)/((3^k)*(2*k+1)); 
     end
@@ -30,10 +32,12 @@ while a_err>tol
     a(n_a+1) = a_n;
 end
 
+%keep calculating b_n until error < 10^(-6)
 while b_err>tol
     
     b_n = 0;
     n_b = n_b + 1;
+    %calculate b_n for current value of n
     for k=0:n_b
         b_n = b_n + 16*((-1)^k)/(5^(2*k+1)*(2*k+1))-4*((-1)^k)/(239^(2*k+1)*(2*k+1));
     end

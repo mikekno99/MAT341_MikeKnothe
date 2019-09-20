@@ -1,3 +1,5 @@
+%plot values from calculate_Nested_For_Loop_Time()
+%plots log-log plot of N vs. Time
 function plot_Nested_Times()
 
 N = [1:1:10 20:10:100 125 150 175 200 225 250];

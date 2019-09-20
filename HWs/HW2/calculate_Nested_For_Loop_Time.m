@@ -1,3 +1,4 @@
+%code given in instructions
 function time = calculate_Nested_For_Loop_Time(N)
 
 tic
